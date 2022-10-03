@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Postal Code</title>
+
+    <!-- Style-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section-main">
+        <h1>Kode Pos Indonesia</h1>
+        <p>Pencarian kode pos dengan memasukkan nama provinsi, kota/kabupaten, kecamatan, desa/kelurahan.</p>
+        <hr>
+        <br><br>
+        <div class="input-form">
+          <label for="province">Provinsi</label>
+          <select name="province" id="province">
+            <option value="">Pilih Provinsi..</option>
+          </select>
+        </div>
+        <div class="input-form">
+          <label for="city">Kota/kabupaten</label>
+          <select name="city" id="city">
+            <option value="">Pilih kota/kabupaten..</option>
+          </select>
+        </div>
+        <div class="input-form">
+          <label for="district">Kecamatan</label>
+          <select name="district" id="district">
+            <option value="">Pilih kecamatan</option>
+          </select>
+        </div>
+
+        <div class="input-form">
+          <label for="subdistrict">Desa/kelurahan</label>
+          <select name="subdistrict" id="subdistrict">
+            <option value="">Pilih desa/kelurahan</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="section-result">
+        <h1>Kode Pos :</h1>
+        <h4 id="postal-code">-</h4>
+        <p id="detail-address">-</p>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
